@@ -1,0 +1,43 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: var(--ff-inter);
+  background-color: var(--clr-primary-bg);
+  color: var(--clr-white-75);
+  line-height: 1.6;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-md);
+}
+
+a {
+  color: var(--clr-accent);
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: var(--ff-lexend);
+  color: var(--clr-white);
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: var(--space-lg);
+}
+
